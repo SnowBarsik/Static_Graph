@@ -1,93 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="ConstexprBasedGraph&lt;V&gt;" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.5" />
+  <Class Name="ConstexprBasedGraph&lt;V&gt;">
+    <Position X="0.5" Y="0.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAQAAAAAAAACgAAAAAAggAAAIAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Class>
-  <Struct Name="Slice&lt;T&gt;" Collapsed="true">
-    <Position X="2.25" Y="3.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
-      <FileName>src\main.cpp</FileName>
-    </TypeIdentifier>
-  </Struct>
   <Struct Name="Edge&lt;V1, V2&gt;" Collapsed="true">
-    <Position X="2.25" Y="2.75" Width="1.5" />
+    <Position X="4" Y="2.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="TemplateBasedGraph&lt;V, ...Edges&gt;" Collapsed="true">
-    <Position X="4" Y="3.75" Width="1.5" />
+    <Position X="4.5" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="HasEdgeUtility&lt;Vertex1, Vertex2, Graph&gt;" Collapsed="true">
-    <Position X="5.75" Y="2.75" Width="1.5" />
+    <Position X="4" Y="3.5" Width="4.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="DegUtility&lt;Vertex, Graph&gt;" Collapsed="true">
-    <Position X="5.75" Y="1.75" Width="1.5" />
+    <Position X="6" Y="2.75" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="AdjacentUtility&lt;Vertex, Graph&gt;" Collapsed="true">
-    <Position X="0.5" Y="1.75" Width="1.5" />
+    <Position X="4" Y="1.25" Width="4.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="EdgesCount&lt;Graph&gt;" Collapsed="true">
-    <Position X="4" Y="2.75" Width="1.5" />
+    <Position X="4" Y="2" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="VerticesCount&lt;Graph&gt;" Collapsed="true">
-    <Position X="5.75" Y="3.75" Width="1.5" />
+    <Position X="6" Y="2" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="BFS&lt;Graph&gt;" Collapsed="true">
-    <Position X="2.25" Y="1.75" Width="1.5" />
+    <Position X="4.75" Y="5.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="DFS&lt;Graph&gt;" Collapsed="true">
-    <Position X="0.5" Y="2.75" Width="1.5" />
+    <Position X="4.75" Y="6.25" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>
   <Struct Name="IsAcyclicGraph&lt;Graph&gt;" Collapsed="true">
-    <Position X="0.5" Y="3.75" Width="1.5" />
+    <Position X="4.75" Y="4.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>
-  <Struct Name="ConstexprGraphAlgorithm" Collapsed="true">
-    <Position X="4" Y="1.75" Width="1.5" />
+  <Struct Name="ConstexprGraphAlgorithm">
+    <Position X="0.5" Y="5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAABAEAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAABAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>

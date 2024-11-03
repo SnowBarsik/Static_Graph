@@ -3,6 +3,8 @@
 
 using VertexType = int;
 
+const std::size_t BUFFER_SIZE = 10000;
+
 template<typename T>
 struct Slice
 {
@@ -78,7 +80,9 @@ template<
 struct DFS {};
 
 template<typename Graph>
-struct IsAcyclicGraph {};
+struct FindCyclesUtility {};
+
+using Path = std::array<VertexType, BUFFER_SIZE>;
 
 struct ConstexprGraphAlgorithm
 {
@@ -94,7 +98,7 @@ struct ConstexprGraphAlgorithm
 	}
 
 	template<std::size_t V>
-	static bool is_acyclic(ConstexprBasedGraph<V>& graph) {
+	static std::array<Path, BUFFER_SIZE> find_cycles(ConstexprBasedGraph<V>& graph) {
 		return false;
 	}
 };
