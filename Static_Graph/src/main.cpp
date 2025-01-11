@@ -5,14 +5,15 @@ using namespace std;
 
 
 int main() {
-	//array<array<int, 10>, 11> neigbourhoods = { {{1, 2}, {3}, {0}, {4, 5}, {3}, {6}, {5}, {1}, {0, 2}, {8}, {9} } };
 	//[[1,2],[3],[0],[4,5],[3],[6],[5],[1],[0,2],[8],[9]]
 	DynamicGraph<11> graph1({ {1, 2}, {3}, {0}, {4, 5}, {3}, {6}, {5}, {1}, {0, 2}, {8}, {9} });
-	//, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+
 	cout << graph1.vertex_count() << endl;
 	cout << graph1.edge_count() << endl;
+
 	for (auto& neigbourhood : graph1.neigbourhoods(8))
 		cout << neigbourhood << " ";
+
 	cout << endl;
 	return 0;
 }
