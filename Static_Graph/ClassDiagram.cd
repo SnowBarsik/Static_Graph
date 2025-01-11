@@ -70,7 +70,7 @@
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>
-  <Struct Name="IsAcyclicGraph&lt;Graph&gt;" Collapsed="true">
+  <Struct Name="FindCyclesUtility&lt;Graph&gt;" Collapsed="true">
     <Position X="4.75" Y="4.75" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -80,7 +80,7 @@
   <Struct Name="ConstexprGraphAlgorithm">
     <Position X="0.5" Y="5" Width="2.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAABAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAABAEAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>src\main.cpp</FileName>
     </TypeIdentifier>
   </Struct>
