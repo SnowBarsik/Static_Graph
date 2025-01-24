@@ -39,6 +39,8 @@ void dfs_util(const DynamicGraph<V>& graph, VertexType v_start, Func f) {
 template<size_t V, typename Func>
 void bfs_util(const DynamicGraph<V>& graph, VertexType v_start, Func f) {
 
+    if (v_start >= V) throw std::invalid_argument("v_start is not in graph");
+
     std::vector<bool> visited(V, false);
     std::queue<VertexType> queue;
 

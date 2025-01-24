@@ -1,7 +1,4 @@
-#pragma warning(push)
-#pragma warning(disable : 26495) 
 #include "pch.h"
-#pragma warning(pop)
 #include "../Static_Graph/src/DynamicGraph.hpp"
 #include "../Static_Graph/src/Algorithms.hpp"
 
