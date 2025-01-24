@@ -9,5 +9,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\DynamicGraph.hpp" />
+    <ClInclude Include="src\CycleFindingAlgorithm.hpp" />
   </ItemGroup>
 </Project>
