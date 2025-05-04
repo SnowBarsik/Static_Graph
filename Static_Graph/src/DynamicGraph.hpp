@@ -38,7 +38,7 @@ public:
 private:
 	static std::array<std::array<VertexType, V + 1>, V> initialize_neigbourhoods
 	(std::initializer_list<std::initializer_list<VertexType>> init) {
-		std::array<std::array<VertexType, V + 1>, V> neigbourhoods_list;
+		std::array<std::array<VertexType, V + 1>, V> neigbourhoods_list{};
 
 		for (std::size_t i = 0; i < init.size(); i++) {
 			if (i + 1 > V) throw std::invalid_argument("initializer_list dosen`t fit into array");
@@ -55,7 +55,7 @@ private:
 		return neigbourhoods_list;
 	}
 	
-	static int initialize_edge_count(std::initializer_list<std::initializer_list<VertexType>> init) {
+	static std::size_t initialize_edge_count(std::initializer_list<std::initializer_list<VertexType>> init) {
 		std::size_t edge_count = 0;
 
 		for (const auto& nested_init : init) {
