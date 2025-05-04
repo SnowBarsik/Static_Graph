@@ -22,11 +22,16 @@ public:
 		return std::span(_neigbourhoods_list[vertex].begin(), _neigbourhoods_list[vertex][V]);
 	}
 
-	std::size_t vertex_count() const{
+	bool hasOrientedEdge(VertexType v_out, VertexType v_in) const {
+		for (auto& neigbourhood : neigbourhoods(v_out)) if (v_in == neigbourhood) return true;
+		return false;
+	}
+
+	std::size_t vertex_count() const {
 		return V;
 	}
 
-	std::size_t edge_count() const{
+	std::size_t edge_count() const {
 		return _edge_count;
 	}
 

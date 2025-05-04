@@ -136,6 +136,7 @@
     <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\CycleFindingAlgorithm.hpp" />
     <ClInclude Include="src\Algorithms.hpp" />
     <ClInclude Include="src\DynamicGraph.hpp" />
   </ItemGroup>
