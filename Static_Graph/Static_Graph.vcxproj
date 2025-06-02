@@ -129,8 +129,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Diagram.cpp" />
+    <ClCompile Include="src\CycleFindingRun.cpp" />
+    <ClCompile Include="src\Diagram.hpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\ProtoAlgoritms.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
@@ -139,6 +141,8 @@
     <ClInclude Include="src\CycleFindingAlgorithm.hpp" />
     <ClInclude Include="src\Algorithms.hpp" />
     <ClInclude Include="src\DynamicGraph.hpp" />
+    <ClInclude Include="src\ExampleOfHierarchy.hpp" />
+    <ClInclude Include="src\HierarchyToGraphConverter.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

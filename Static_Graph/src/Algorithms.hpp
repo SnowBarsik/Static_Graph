@@ -30,7 +30,7 @@ void dfs_util(const DynamicGraph<V>& graph, VertexType v_start, Func f) {
             //std::cout << v_start << std::endl;
         }
 
-        for (auto i = graph.neigbourhoods(v_start).begin(); i != graph.neigbourhoods(v_start).end(); ++i)
+        for (auto i = graph.neighbourhoods(v_start).begin(); i != graph.neighbourhoods(v_start).end(); ++i)
             if (!visited[*i])
                 stack.push(*i);
     }
@@ -57,7 +57,7 @@ void bfs_util(const DynamicGraph<V>& graph, VertexType v_start, Func f) {
             f(v_start);
         }
 
-        for (auto i = graph.neigbourhoods(v_start).begin(); i != graph.neigbourhoods(v_start).end(); ++i)
+        for (auto i = graph.neighbourhoods(v_start).begin(); i != graph.neighbourhoods(v_start).end(); ++i)
             if (!visited[*i])
                 queue.push(*i);
     }
@@ -72,8 +72,8 @@ void first_dfs_way(std::vector<VertexType>& way, const DynamicGraph<V>& graph, V
             return;
         }
 
-        for (VertexType neigbourhood : graph.neigbourhoods(way.back()))
-            if (v_start == neigbourhood)
+        for (VertexType neighbourhood : graph.neighbourhoods(way.back()))
+            if (v_start == neighbourhood)
                 way.push_back(v_start);
 
     });
@@ -97,8 +97,8 @@ void all_dfs_ways(std::vector<std::vector<VertexType>>& ways, const DynamicGraph
 
         const VertexType end = last_way.back();
 
-        for (VertexType neigbourhood : graph.neigbourhoods(end))
-            if (v_start == neigbourhood) 
+        for (VertexType neighbourhood : graph.neighbourhoods(end))
+            if (v_start == neighbourhood) 
             {
                 last_way.push_back(v_start);
                 jump = false;
@@ -111,8 +111,8 @@ void all_dfs_ways(std::vector<std::vector<VertexType>>& ways, const DynamicGraph
 
             while (!jump) 
             {
-                for (VertexType neigbourhood : graph.neigbourhoods(last_way[last_way.size() - i]))
-                    if (v_start == neigbourhood || i < 2) jump = true;
+                for (VertexType neighbourhood : graph.neighbourhoods(last_way[last_way.size() - i]))
+                    if (v_start == neighbourhood || i < 2) jump = true;
                 i--;
             }
 

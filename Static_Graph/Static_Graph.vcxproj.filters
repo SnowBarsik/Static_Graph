@@ -2,7 +2,9 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\Diagram.cpp" />
+    <ClCompile Include="src\Diagram.hpp" />
+    <ClCompile Include="src\ProtoAlgoritms.cpp" />
+    <ClCompile Include="src\CycleFindingRun.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
@@ -10,5 +12,8 @@
   <ItemGroup>
     <ClInclude Include="src\DynamicGraph.hpp" />
     <ClInclude Include="src\CycleFindingAlgorithm.hpp" />
+    <ClInclude Include="src\Algorithms.hpp" />
+    <ClInclude Include="src\HierarchyToGraphConverter.hpp" />
+    <ClInclude Include="src\ExampleOfHierarchy.hpp" />
   </ItemGroup>
 </Project>
